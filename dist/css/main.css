@@ -1,32 +1,40 @@
 * {
   box-sizing: border-box !important;
-  margin: 0px; }
+  margin: 0px;
+  text-align: center;
+  font-size: 16px; }
 
 body {
   font-family: "Source Sans Pro", Arial;
   box-sizing: border-box;
   border-top: 5px #72c54f solid; }
 
+#header1 {
+  float: left;
+  width: 100%; }
+
 nav {
   font-weight: 600;
-  clear: both; }
+  clear: both !important; }
+
+#searchBar {
+  height: 500px; }
 
 #onTop {
   position: absolute;
-  top: 20px;
-  right: 60px; }
+  top: 7px;
+  right: 100px; }
 
 .navbar-default {
   background-color: rgba(0, 0, 200, 0);
   border: 0;
   border-radius: 0px;
-  float: left;
   width: 100%;
-  padding: 40px;
-  margin-top: 30px; }
+  padding: 60px; }
 
 .navbar li a {
-  color: #bbb !important; }
+  color: #ccc !important;
+  margin: 0px 10px; }
 
 .navbar-brand {
   background: url("https://www.pikmykid.com/wp-content/themes/PMK2017/src/images/logo-white-shadow.svg") center;
@@ -38,3 +46,40 @@ nav {
   height: 100vh;
   background-size: cover;
   color: white; }
+
+.showcaseBox {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.titles {
+  margin: 70px; }
+  .titles p {
+    font-size: 2em;
+    letter-spacing: 8px; }
+  .titles h1 {
+    font-size: 5em;
+    font-weight: 800;
+    margin-top: 0px; }
+
+#leftButton, #rightButton {
+  color: white;
+  padding: 15px 30px;
+  border: 2px solid #72c54f;
+  border-radius: 55px;
+  margin: 500px 30px;
+  font-size: 16px;
+  letter-spacing: 2px; }
+
+#leftButton i, #rightButton i {
+  font-size: 20px; }
+
+#rightButton {
+  background-color: #72c54f; }
+
+#content1right img {
+  max-width: 80%; }
+
+#content1right img:nth-child(-n+2) {
+  margin-bottom: -1000px; }

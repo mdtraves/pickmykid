@@ -12,7 +12,7 @@
 <body>
     <?php  include "includes/header.php"; ?>
     <?php  include "includes/showcase.php"; ?>
-
+    <?php  include "includes/content1.php"; ?>
     <br>
     <br>
 
