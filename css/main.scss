@@ -104,14 +104,78 @@ nav {
   background-color: $newgreen;
 }
 
-.content1con {
 
+
+
+
+
+
+//// content area ////
+
+
+.flexy {
+  display: flex;
+  padding: 10%;
+}
+
+.content1inner {
+
+}
+
+#content1left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+
+  h2 {
+      font-size: 4em;
+      font-weight: 800;
+      text-align: left;
+  }
+  p {
+    text-align: left;
+    word-spacing: 4px;
+    line-height: 2;
+    font-weight: 600;
+    color: gray;
+
+  }
 }
 
 #content1right img {
-  max-width: 80%;
+  max-width: 90%;
 }
 
-#content1right img:nth-child(-n+2) {
-  margin-bottom: -1000px;
+
+////// quote section  /////
+
+.review {
+  background: linear-gradient($newgreen, #20c86f);
+  .reviewcontent{
+    padding: 60px;
+    blockquote {
+      border: none;
+    }
+    .quote {
+    font-size: 3em;
+    padding: 50px;
+      svg {
+        padding:13px;
+        opacity: 0.35;
+      }
+    }
+    .small {
+      color: white;
+      width: 8%;
+      margin: 20px auto;
+      opacity: 0.4;
+      border: 2px solid rgba(235,235,235,0.8);
+
+    }
+    .quotefooter {
+      color: #000;
+      font-size: 1.5em;
+    }
+  }
 }

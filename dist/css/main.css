@@ -78,8 +78,47 @@ nav {
 #rightButton {
   background-color: #72c54f; }
 
-#content1right img {
-  max-width: 80%; }
+.flexy {
+  display: flex;
+  padding: 10%; }
 
-#content1right img:nth-child(-n+2) {
-  margin-bottom: -1000px; }
+#content1left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px; }
+  #content1left h2 {
+    font-size: 4em;
+    font-weight: 800;
+    text-align: left; }
+  #content1left p {
+    text-align: left;
+    word-spacing: 4px;
+    line-height: 2;
+    font-weight: 600;
+    color: gray; }
+
+#content1right img {
+  max-width: 90%; }
+
+.review {
+  background: linear-gradient(#72c54f, #20c86f); }
+  .review .reviewcontent {
+    padding: 60px; }
+    .review .reviewcontent blockquote {
+      border: none; }
+    .review .reviewcontent .quote {
+      font-size: 3em;
+      padding: 50px; }
+      .review .reviewcontent .quote svg {
+        padding: 13px;
+        opacity: 0.35; }
+    .review .reviewcontent .small {
+      color: white;
+      width: 8%;
+      margin: 20px auto;
+      opacity: 0.4;
+      border: 2px solid rgba(235, 235, 235, 0.8); }
+    .review .reviewcontent .quotefooter {
+      color: #000;
+      font-size: 1.5em; }
